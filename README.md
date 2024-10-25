@@ -7,7 +7,7 @@ Os dígitos veriﬁ cadores (DV) são calculados a par r dos doze primeiros cara
 etapas, u lizando o módulo de divisão 11e pesos distribuídos de 2 a 9.
 
 ### Cálculo do primeiro dígito verificador
-Para cada um dos caracteres do CNPJ, atribuir o valor da coluna “Valor para cálculo do DV”, conforme a tabela abaixo (ou subtrair 48 do “Valor ASCII”):
+Para cada um dos caracteres do CNPJ, subtrair 48 do “Valor ASCII”:
 
 Exemplo
 
